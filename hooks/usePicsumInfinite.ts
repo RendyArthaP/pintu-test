@@ -1,7 +1,7 @@
 import { getPicsumList } from "@/services/picsum/picsum.services";
 import { useInfiniteQuery } from "@tanstack/react-query";
 
-const LIMIT = 10;
+const LIMIT = 20;
 
 export const usePicsumInfinite = () => {
   return useInfiniteQuery({
